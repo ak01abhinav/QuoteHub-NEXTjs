@@ -37,7 +37,7 @@ export default function Home() {
           <p style={styles.quote}>Loading...</p>
         ) : (
           <>
-            <p style={styles.quote}>"{quote}"</p>
+            <p style={styles.quote}>&quot{quote}</p>
             <p style={styles.author}>- {author}</p>
           </>
         )}
